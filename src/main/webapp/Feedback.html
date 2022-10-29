@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body
+  {
+	  background-image:url('All.jpg');
+  	  background-size:cover;
+  }
+  .logoutLblPos{
+
+   position:fixed;
+   left:630px;
+   
+}
+  
+  </style>
+  <script>
+  
+  function feedBack()
+  {
+	  alert("Thank you for your valuable feedback");
+  }
+  </script>
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">New India Insurance</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      <li class=><a href="Product.html">Insurance Product</a></li>
+      
+      <li class="active"><a href="Contact.html"><span class="glyphicon glyphicon-phone-alt"></span>Contact</a></li>
+      <li class="active"><a href="Feedback.html"><span class="glyphicon glyphicon-envelope"></span>FeedBack</a></li>
+       <li class="logoutLblPos"><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <h3>FeedBack</h3>
+<form>
+    <div class="form-group">
+      <label for="Feedback">We all need people who gives us feedback</label>
+<textarea  rows="4" cols="5" class="form-control" id="feedback" placeholder="Enter feedback">
+</textarea>
+<br>
+</div>
+<button  onclick="feedBack()">Submit</button>
+
+  </form>
+</div>
+
+</body>
+</html>

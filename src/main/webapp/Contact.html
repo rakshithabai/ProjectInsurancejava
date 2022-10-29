@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body
+  {
+	  background-image:url('Contact.jpg');
+  	  background-size:cover;
+  }
+  .logoutLblPos{
+
+   position:fixed;
+   left:630px;
+   
+}
+  
+  form
+  {height:30px;
+  padding: 250px 20px;
+  }
+  </style>
+  <script>
+  function conTact()
+  {
+	  alert("Request for a call received");
+  }
+  </script>
+</head>
+<body >
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">New India Insurance</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      <li class=><a href="Product.html">Insurance Product</a></li>
+      
+      <li class="active"><a href="Contact.html"><span class="glyphicon glyphicon-phone-alt"></span>Contact</a></li>
+      <li><a href="Feedback.html"><span class="glyphicon glyphicon-envelope"></span>FeedBack</a></li>
+       <li class="logoutLblPos"><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h1><b>Contact us</b></h1>
+<form role="form">
+   
+    <div class="form-group">
+      <h2><strong>Office Location</strong></h2>
+      <p> 224 <br>WhiteFeild, Bangalore-560075</p>
+      <h2><strong>Telephone</strong></h2>
+      <p>Reach us on : 9000002222/9874563210</p>
+       </div>
+ <!-- <div class="form-group">
+     <h2>Request a Callback</h2>
+<input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" required>
+    </div> 
+    
+<button onclick="conTact()">Submit</button>-->
+  </form>
+</div>
+
+</body>
+</html>
